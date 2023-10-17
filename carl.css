@@ -1,0 +1,83 @@
+body {
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+section {
+    text-align: start;
+}
+.picture img {
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    float: inline-end;
+}
+.name a {
+    text-decoration: none;
+    color: black;
+    border: 10px;
+    text-align: justify;
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;    
+}
+a :hover {
+    color: rgb(132, 209, 209);
+    transform: translate(100px);
+}
+.name h5 {
+    text-align: justify;
+    padding-top: 0;
+    margin: 0;
+}
+.data {
+    text-decoration: underline;
+}
+ol li {
+    text-indent: 50px;
+}
+li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 3px;
+    padding: 2px;
+}
+h4 {
+    text-indent: 1in;
+}
+#aboutme {
+    text-align: center;
+}
+#aboutme h4 {
+    text-align: left;
+}
+.ed-background {
+    background-color: lightblue;
+    width: 45%;
+    height: auto;
+    margin-left: 25px;
+}
+.hobbies {float: right;
+    background-color: lightblue;
+    width: 45%;
+    height: auto;
+    margin-right: 25px;
+}
+.ed-background p {
+    text-transform: uppercase;
+    text-align: justify;
+    
+}
+.ed-background h4 {
+    justify-self: start;
+}
+#pogi li {
+    text-align: left;
+    text-decoration: none;
+
+}
+.king a {
+    text-decoration: none;
+    color: black;
+
+}
